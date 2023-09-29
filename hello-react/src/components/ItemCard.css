@@ -1,0 +1,25 @@
+.item-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 4em 2em;
+}
+
+.single-item-container {
+  justify-content: center;
+  align-items: center;
+
+  height: fit-content;
+}
+
+.single-item-container h2,
+.single-item-container p {
+  margin-left: 1em;
+}
+
+.single-item-container img {
+  width: 60%;
+}
+.item-p {
+  color: black;
+}
